@@ -1,0 +1,10 @@
+.languageActive{border-bottom: 1px solid  #0275d8;}
+.col-md-12{padding: 0;}
+#carousel1{height: 650px; overflow: hidden;}
+#carousel1 .carousel-caption{top: 50%; text-align: center; background: rgba(70, 67, 67, 0.65);}
+@media only screen and (max-width: 768px) {
+    #carousel1{height: 200px; overflow: hidden;}
+    #carousel1 .carousel-caption h1{font-size: 12pt;}
+}
+.nav-link{transition: 300ms ease; margin-left: 5px; margin-right: 5px;}
+.nav-link:hover{border-bottom: 1px solid blue;}
